@@ -1,27 +1,86 @@
-# Bytebank
+# 💳 Bytebank - Projeto em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+Este projeto é uma aplicação desenvolvida com **Angular**, representando um sistema bancário fictício chamado **Bytebank**. Ele simula funcionalidades básicas como o cadastro de clientes, movimentações financeiras e visualização de dados.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 🚀 Tecnologias utilizadas
 
-## Code scaffolding
+- **Angular 10**
+- **TypeScript**
+- **SCSS**
+- **HTML**
+- **Karma e Jasmine** (testes unitários)
+- **Protractor** (testes end-to-end)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📦 Como instalar e rodar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### 1. Clone o repositório
+```bash
+git clone https://github.com/brunodomingues98/bytebankAngular.git
+cd bytebankAngular
+```
 
-## Running unit tests
+### 2. Instale as dependências
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 3. Execute o servidor de desenvolvimento
+```bash
+ng serve
+```
+Acesse o app em `http://localhost:4200/`.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## 🧲 Executando os testes
 
-## Further help
+### Testes unitários
+```bash
+ng test
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Testes e2e (fim a fim)
+```bash
+ng e2e
+```
+
+---
+
+## 🧱 Estrutura do projeto
+
+```
+bytebankAngular/
+├── src/
+│   ├── app/
+│   │   ├── components/       # Componentes da interface
+│   │   ├── services/         # Serviços reutilizáveis
+│   │   └── models/           # Interfaces e tipos
+├── dados/                    # Dados mockados
+├── e2e/                      # Testes end-to-end
+├── angular.json              # Configuração do Angular CLI
+├── package.json              # Dependências do projeto
+└── README.md
+```
+
+---
+
+## 📌 Comandos úteis
+
+- `ng generate component nome` → cria novo componente
+- `ng build --prod` → build para produção
+- `ng help` → ajuda sobre comandos do Angular CLI
+
+---
+
+## 📜 Licença
+
+Este projeto é de código aberto. Sinta-se livre para estudar, modificar e utilizar como base.
+
+---
+
+📨 Para sugestões ou dúvidas, entre em contato via [GitHub](https://github.com/brunodomingues98).
+
